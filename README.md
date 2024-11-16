@@ -6,11 +6,7 @@ This project implements a dynamic pagination system for efficiently displaying l
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Tech Stack](#tech-stack)
-- [Contributing](#contributing)
-- [License](#license)
-
+  
 ## Overview
 Dynamic pagination allows you to divide large datasets into smaller, more manageable parts (pages) and navigate between them efficiently. This project provides an easy-to-use solution for implementing dynamic pagination in your application. It can be customized to handle different types of data and use cases.
 
