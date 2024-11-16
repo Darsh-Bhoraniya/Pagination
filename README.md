@@ -9,7 +9,36 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in your# GitHub Dynamic Pagination Table
+
+Welcome to the **GitHub Dynamic Pagination Table**! This project demonstrates how to create a **React** application that fetches GitHub repository data dynamically and displays it in a paginated table. Users can navigate through repositories using **Previous**, **Next**, and direct page number buttons.
+
+## Features
+
+- **Dynamic Pagination**: Navigate through pages of GitHub repositories with ease.
+- **Interactive Table**: Displays repository details including name, description, stars, and more.
+- **Responsive Design**: Built using **Bootstrap** for a clean, mobile-friendly interface.
+- **User-friendly Pagination**: Simple navigation for large data sets.
+
+## Preview
+
+Here is a preview of how the application looks:
+
+![GitHub Pagination Preview](https://via.placeholder.com/600x300?text=Preview+of+GitHub+Pagination+App)
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Before getting started, you need to have **Node.js** and **npm** installed.
+
+To verify your installation, run the following in your terminal:
+```bash
+node -v
+npm -v
+browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
