@@ -18,9 +18,9 @@ const Table = ({ data, columns }) => {
           <tbody>
             {data.map((item) => (
               <tr key={item.id} className="text-center">
-                <td >{item.id}</td>
+                <td>{item.id}</td>
                 <td>{item.name}</td>
-                <td >{item.age}</td>
+                <td>{item.age}</td>
                 <td>{item.email}</td>
               </tr>
             ))}

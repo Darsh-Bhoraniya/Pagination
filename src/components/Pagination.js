@@ -7,7 +7,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
     // Previous Button
     items.push(
       <li className={`page-item ${currentPage === 1 ? "disabled" : ""}`} key="prev">
-        <button className="page-link" onClick={() => onPageChange(currentPage - 1)}>
+        <button className="page-link" onClick={() => onPageChange(currentPage - 1)} disabled={currentPage === 1}>
           Previous
         </button>
       </li>
@@ -69,7 +69,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
     // Next Button
     items.push(
       <li className={`page-item ${currentPage === totalPages ? "disabled" : ""}`} key="next">
-        <button className="page-link" onClick={() => onPageChange(currentPage + 1)}>
+        <button className="page-link" onClick={() => onPageChange(currentPage + 1)} disabled={currentPage === totalPages}>
           Next
         </button>
       </li>
