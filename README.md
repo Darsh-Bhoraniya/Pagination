@@ -22,5 +22,5 @@ Dynamic pagination allows you to divide large datasets into smaller, more manage
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/dynamic-pagination.git
-   cd dynamic-pagination
+   git clone https://github.com/Darsh-Bhoraniya/Task1_Pagination.git
+   cd Task1_Pagination
